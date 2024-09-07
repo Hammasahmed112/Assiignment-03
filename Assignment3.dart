@@ -22,11 +22,6 @@ print(listNo.elementAt(6));
                         //Question#04
   List<int> numbers = [55, 835, 79, 87, 7];
 
-  if (numbers.isEmpty) {
-    print("The list is empty.");
-    return;
-  }
-
   int smallest = numbers.reduce(min);
   int largest = numbers.reduce(max);
 
